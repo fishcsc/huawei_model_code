@@ -1,0 +1,4 @@
+bash run_training.sh --method  's_diloco' --epochs 3 --sync-interval 50 --log-interval 50 --total-steps 100000 --batch-size 16 --learning-rate 2e-5 --delay-steps 3 --num-shards 5 --logname 'h=50-tau=3-shards=5' --dc-lambda 0.5 --sync-offset 0
+bash run_training.sh --method  's_diloco' --epochs 3 --sync-interval 50 --log-interval 50 --total-steps 100000 --batch-size 16 --learning-rate 2e-5 --delay-steps 4 --num-shards 5 --logname 'h=50-tau=4-shards=5' --dc-lambda 0.5 --sync-offset 0
+bash run_training.sh --method  's_diloco' --epochs 3 --sync-interval 50 --log-interval 50 --total-steps 100000 --batch-size 16 --learning-rate 2e-5 --delay-steps 5 --num-shards 5 --logname 'h=50-tau=5-shards=5' --dc-lambda 0.5 --sync-offset 0
+bash run_training.sh --method  's_diloco' --epochs 3 --sync-interval 50 --log-interval 50 --total-steps 100000 --batch-size 16 --learning-rate 2e-5 --delay-steps 6 --num-shards 5 --logname 'h=50-tau=6-shards=5' --dc-lambda 0.5 --sync-offset 0
